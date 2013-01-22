@@ -18,8 +18,6 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # Try to build the kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_p990_defconfig
 
-#TARGET_PREBUILT_KERNEL := device/lge/p990/kernel
-
 BOARD_VOLD_MAX_PARTITIONS := 10
 
 BOARD_HAVE_FM_RADIO := true
@@ -27,5 +25,3 @@ BOARD_GLOBAL_CFLAGS += -DHAVE_FM_RADIO
 
 TARGET_OTA_ASSERT_DEVICE := p990
 BOARD_RIL_CLASS := ../../../device/lge/p990/ril/
-
-#BOARD_TOUCH_RECOVERY := true
